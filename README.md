@@ -1,19 +1,19 @@
 # BAITAP4
-BTVN_BAITAP4
-bai tap 4: (sql server)
-yêu cầu bài toán:
+# BTVN_BAITAP4
+# bai tap 4: (sql server)
+- Yêu cầu bài toán:
  - Tạo csdl cho hệ thống TKB (đã nghe giảng, đã xem cách làm)
  - Nguồn dữ liệu: TMS.tnut.edu.vn
  - Tạo các bảng tuỳ ý (3nf)
  - Tạo được query truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra.
    trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
 
-các bước thực hiện:
+- Các bước thực hiện:
 1. Tạo github repo mới: đặt tên tuỳ ý (có liên quan đến bài tập này)
 2. tạo file readme.md, edit online nó:
    paste những ảnh chụp màn hình
    gõ text mô tả cho ảnh đó
-Gợi ý:
+- Gợi ý:
   sử dung tms => dữ liệu thô => tiền xử lý => dữ liệu như ý (3nf)
   tạo các bảng với struct phù hợp
   insert nhiều rows từ excel vào cửa sổ edit dữ liệu 1 table (quan sát thì sẽ làm đc)
@@ -43,12 +43,12 @@ Gợi ý:
   ![Screenshot 2025-04-13 154815](https://github.com/user-attachments/assets/84d8ce12-915a-425b-9be8-a9198d8e57cc)
 
 ## Tạo được query truy vấn ra thông tin gồm 4 cột: họ tên gv, môn dạy, giờ vào lớp, giờ ra.
- -trả lời câu hỏi: trong khoảng thời gian từ datetime1 tới datetime2 thì có những gv nào đang bận giảng dạy.
  -Ở phần này em tạo ra giờ vào và giơ ra trước sau.
- -Em dùng cách là điền tất cả các giờ từ tiết 1 đến tiết 9 để nó cho ra kết quả đúng 
- - Sau khi làm xong em sẽ SECLECT lại để kiểm tra xem nó có ra cái giờ đúng ko 
+### Em dùng lệnh dưới đây để chuyển đồi từ tiết học sang giờ cụ thể để dễ so sánh và hiện thị 
  ![Screenshot 2025-04-13 170942](https://github.com/user-attachments/assets/c88247ab-598c-48ed-99ee-810129e8142a)
-   ![Screenshot 2025-04-13 204456](https://github.com/user-attachments/assets/d261f79e-a887-4a9a-9eab-96c86c8cdca3)
- ![Screenshot 2025-04-13 154649](https://github.com/user-attachments/assets/34963557-633b-4607-8af8-7ce4bfa177d5)
+##  Truy vấn trong khoảng từ 6:30 đến 12:00 của ngày 21-03-2025 đến 28-03-2025 thì có những gv nào đang bận giảng dạy.
+  ![Screenshot 2025-04-14 121559](https://github.com/user-attachments/assets/67d4ff92-56c5-4796-b69d-f7131943d444)
+
+   ![Screenshot 2025-04-14 124313](https://github.com/user-attachments/assets/f144e66f-1963-4685-b7e6-ec57dd1129a2)
 
 
